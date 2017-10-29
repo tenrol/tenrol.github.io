@@ -1,0 +1,103 @@
+body {
+    font-family: "Arial", Arial, serif;
+}
+
+#personal_info ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #ffffff;
+}
+#personal_info li {
+    position: relative;
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+}
+#personal_info ul #name {
+    font-size: 25px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+.section ul li {
+    padding: 3px;
+}
+.position {
+    font-weight: bold;
+}
+.company {
+    font-style: italic;
+}
+.date {
+    vertical-align: baseline;
+    padding: 0;
+}
+.date span{
+    padding: 8px;
+    float: right;
+}
+td {
+    padding: 0;
+    margin: 0;
+}
+.experience {
+    width: 700px;
+    min-width: 700px;
+}
+
+.date {
+    width: 130px;
+    min-width: 130px;
+}
+
+.section header {
+    padding-top: 3px;
+    width: 700px;
+    position: relative;
+    left: 141px;
+    font-size: 18px;
+
+    border-left: 6px solid #000099;
+    background-color: #ebf3fa;
+    margin-bottom: 8px;
+}
+.section header span {
+    position: relative;
+    padding: 1px;
+    margin-left: 5px;
+}
+.section {
+    margin-top: 30px;
+}
+
+
+#linkedin {
+    margin-top: 5px;
+    text-decoration: none;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px #999;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 5px 10px;
+	text-align: center;
+	width: 70px;
+}
+#linkedin {
+	background-color: #0073b2; /* fallback color */
+	background: -moz-linear-gradient(top, #009cda, #0073b2);
+	background: -webkit-linear-gradient(top, #009cda, #0073b2);
+	border: 1px solid #0073b2;
+	text-shadow: 0 -1px -1px #005486;
+}
+#linkedin:hover {
+	background-color: #009cda; /* fallback color */
+	background: -moz-linear-gradient(top, #0073b2, #009cda);
+	background: -ms-linear-gradient(top, #0073b2, #009cda);
+	background: -webkit-linear-gradient(top, #0073b2, #009cda);
+}
